@@ -1,0 +1,537 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-session/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-security/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-jsonp/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-onerror/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-i18n/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-watcher/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-schedule/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-static/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-view/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-mysql/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/locales",
+        "/Users/hj/Desktop/日常/前端/月月前端/blog/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "default",
+      "eventSources": {
+        "default": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "/var/folders/12/wx4jr6sd18s22wrhf5bw5tp00000gn/T/egg-multipart-tmp/test_vue",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/hj/Desktop/日常/前端/月月前端/blog/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
+    },
+    "view": {
+      "root": "/Users/hj/Desktop/日常/前端/月月前端/blog/app/view",
+      "cache": true,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 0>",
+        "database": "blog"
+      }
+    },
+    "env": "prod",
+    "name": "test_vue",
+    "keys": "<String len: 27>",
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "test_vue",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "egg": {
+        "declarations": true
+      },
+      "dependencies": {
+        "@babel/runtime": "^7.7.7",
+        "egg": "^2.15.1",
+        "egg-mssql": "^1.0.2",
+        "egg-mysql": "^3.0.0",
+        "egg-scripts": "^2.11.0",
+        "ejs": "^2.7.2",
+        "element-ui": "^2.12.0",
+        "koa-proxy": "^1.0.0-alpha.3",
+        "mssql": "^6.0.1",
+        "mysql": "^2.17.1",
+        "vue": "^2.6.10",
+        "vue-resource": "^1.5.1",
+        "vue-router": "^3.1.3",
+        "vue-template-compiler": "^2.6.10",
+        "vuex": "^3.1.2",
+        "wangeditor": "^3.1.1",
+        "webpack-dev-server": "^3.9.0"
+      },
+      "devDependencies": {
+        "@babel/cli": "^7.7.0",
+        "@babel/core": "^7.7.2",
+        "@babel/plugin-transform-runtime": "^7.7.6",
+        "@babel/polyfill": "^7.7.0",
+        "@babel/preset-env": "^7.7.1",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "concurrently": "^5.0.0",
+        "css-loader": "^3.2.0",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.21.0",
+        "eslint": "^5.13.0",
+        "eslint-config-egg": "^7.1.0",
+        "file-loader": "^4.2.0",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^1.0.0",
+        "vue-loader": "^15.7.2",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+      },
+      "engines": {
+        "node": ">=10.0.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-test_vue",
+        "stop": "egg-scripts stop --title=egg-server-test_vue",
+        "dev": "NODE_ENV=development concurrently 'npm run dev-server' 'npm run dev-client'",
+        "build": "NODE_ENV=production webpack",
+        "dev-server": "NODE_ENV=development WORKERS=1 node ./index.js",
+        "pro-server": "NODE_ENV=production WORKERS=1 node ./index.js",
+        "dev-client": "NODE_ENV=development webpack-dev-server",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "ci": {
+        "version": "10"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/hj/Desktop/日常/前端/月月前端/blog",
+    "HOME": "/Users/hj",
+    "rundir": "/Users/hj/Desktop/日常/前端/月月前端/blog/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/hj/logs/test_vue",
+      "encoding": "utf8",
+      "env": "prod",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": true,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "test_vue-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {},
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 80,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-security",
+      "version": "2.7.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart",
+      "version": "2.9.1"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-view",
+      "version": "2.1.2"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-mysql",
+      "version": "3.0.0"
+    }
+  }
+}

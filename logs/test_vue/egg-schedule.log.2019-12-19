@@ -1,0 +1,9 @@
+2019-12-19 13:28:30,273 INFO 619 [Timer] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 54089740ms at 2019-12-20 04:30:00.013
+2019-12-19 13:28:30,268 INFO 620 [Job#1576733310260294745384442051] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2019-12-19 13:28:30,280 INFO 620 [Job#1576733310260294745384442051] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 11ms
+2019-12-20 15:56:35,163 INFO 620 [Job#1576828595148723884872001702] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-12-20 15:56:35,173 INFO 620 [Job#1576828595148723884872001702] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 10ms
+2019-12-20 15:56:35,158 INFO 619 [Timer] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29004850ms at 2019-12-21 00:00:00.008
+2019-12-20 15:56:36,152 INFO 620 [Job#1576828596144723894824725352] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-12-20 15:56:36,158 INFO 620 [Job#1576828596144723894824725352] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2019-12-20 15:56:36,147 INFO 619 [Timer] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29004856ms at 2019-12-21 00:00:01.003

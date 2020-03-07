@@ -1,0 +1,434 @@
+2019-11-17 00:00:27,798 ERROR 10711 [-/127.0.0.1/-/2ms GET /helloworld] nodejs.ReferenceError: ctx is not defined
+    at HomeController.helloworld (/Users/hj/Desktop/日常/前端/月月前端/test_vue/app/controller/home.js:23:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10711
+hostname: sunyueyuedeMBP.lan
+
+2019-11-17 00:01:22,907 ERROR 10728 [-/127.0.0.1/-/2ms GET /helloworld] nodejs.ReferenceError: ctx is not defined
+    at HomeController.helloworld (/Users/hj/Desktop/日常/前端/月月前端/test_vue/app/controller/home.js:23:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10728
+hostname: sunyueyuedeMBP.lan
+
+2019-11-20 20:53:41,572 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 3075934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-11-20 22:27:05,570 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 2563583ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-11-21 00:53:15,824 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 6989647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-11-21 03:23:33,647 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 7217248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-11-21 05:53:30,944 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 7216808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-11-21 07:23:00,633 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 3589125ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-11-21 09:15:12,049 ERROR 67303 nodejs.ClusterClientNoResponseError: client no response in 4930894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 67303
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:48:15,322 ERROR 14221 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14221)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14221
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:48:45,212 ERROR 14234 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14234)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14234
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:49:44,506 ERROR 14266 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14266)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14266
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:50:49,294 ERROR 14298 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14298)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14298
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:51:05,192 ERROR 14305 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14305)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14305
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:51:17,395 ERROR 14311 [-/127.0.0.1/-/19ms GET /home/article/1] nodejs.ReferenceError: result is not defined
+    at ArticleController.getArticle (/Users/hj/Desktop/日常/前端/月月前端/blog/app/controller/article.js:22:24)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:45:18)
+    at /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+    at /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:36:12
+
+pid: 14311
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:51:17,408 ERROR 14311 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14311)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14311
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:51:35,142 ERROR 14319 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14319)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14319
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:52:36,615 ERROR 14321 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14321)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14321
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:53:05,204 ERROR 14354 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14354)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14354
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:53:56,409 ERROR 14369 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14369)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14369
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:56:29,459 ERROR 14430 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14430)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14430
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:57:40,609 ERROR 14470 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14470)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14470
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 19:58:58,294 ERROR 14497 nodejs.RangeError [ERR_BUFFER_OUT_OF_BOUNDS]: Attempt to write outside buffer bounds (uncaughtException throw 1 times on pid:14497)
+    at boundsError (internal/buffer.js:53:11)
+    at Buffer.readUInt8 (internal/buffer.js:143:5)
+    at Packet.type (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/packet.js:141:24)
+    at IncomingMessageStream.processBufferedData (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:69:26)
+    at IncomingMessageStream._transform (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/lib/incoming-message-stream.js:104:10)
+    at IncomingMessageStream.Transform._read (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at IncomingMessageStream.Transform._write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:405:139)
+    at writeOrBuffer (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:394:5)
+    at IncomingMessageStream.Writable.write (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/tedious/node_modules/readable-stream/lib/_stream_writable.js:303:11)
+
+pid: 14497
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 20:09:28,088 ERROR 14746 [-/127.0.0.1/-/3ms GET /home/article/1] nodejs.TypeError: Cannot read property 'get' of undefined
+    at UserService.getUserById (/Users/hj/Desktop/日常/前端/月月前端/blog/app/service/database.js:7:33)
+    at ArticleController.getArticle (/Users/hj/Desktop/日常/前端/月月前端/blog/app/controller/article.js:13:49)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:45:18)
+    at /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+
+pid: 14746
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 20:09:36,826 ERROR 14746 [-/127.0.0.1/-/1ms GET /home/article/1] nodejs.TypeError: Cannot read property 'get' of undefined
+    at UserService.getUserById (/Users/hj/Desktop/日常/前端/月月前端/blog/app/service/database.js:7:33)
+    at ArticleController.getArticle (/Users/hj/Desktop/日常/前端/月月前端/blog/app/controller/article.js:13:49)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:45:18)
+    at /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+
+pid: 14746
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 20:09:59,733 ERROR 14770 [-/127.0.0.1/-/3ms GET /home/article/1] nodejs.TypeError: Cannot read property 'get' of undefined
+    at UserService.getUserById (/Users/hj/Desktop/日常/前端/月月前端/blog/app/service/database.js:7:33)
+    at ArticleController.getArticle (/Users/hj/Desktop/日常/前端/月月前端/blog/app/controller/article.js:13:49)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:45:18)
+    at /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+
+pid: 14770
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-02 20:11:45,001 ERROR 14816 [-/127.0.0.1/-/2ms GET /home/article/1] nodejs.TypeError: Cannot read property 'get' of undefined
+    at UserService.getUserById (/Users/hj/Desktop/日常/前端/月月前端/blog/app/service/database.js:7:33)
+    at ArticleController.getArticle (/Users/hj/Desktop/日常/前端/月月前端/blog/app/controller/article.js:13:49)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:45:18)
+    at /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/koa-compose/index.js:44:32)
+
+pid: 14816
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-05 20:13:44,512 ERROR 24549 nodejs.ClusterClientNoResponseError: client no response in 259667ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 24549
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-18 23:46:25,014 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 1216528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 00:26:26,159 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 2381132ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 00:41:47,536 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 921233ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 02:42:33,834 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 7206150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 05:40:17,472 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 10663064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 06:36:18,658 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 3361161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 07:04:25,947 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 1687267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+

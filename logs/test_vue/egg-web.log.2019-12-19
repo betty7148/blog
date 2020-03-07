@@ -1,0 +1,49 @@
+2019-12-19 07:34:47,072 INFO 620 [egg-logrotator] app logger reload: got log-reload message
+2019-12-19 08:48:45,043 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 08:50:44,104 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 11:13:35,475 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 12:37:07,322 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-19 12:37:07,322 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 12:48:32,181 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-19 12:48:32,181 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 13:28:30,275 INFO 620 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/12/wx4jr6sd18s22wrhf5bw5tp00000gn/T/egg-multipart-tmp/test_vue"
+2019-12-19 13:28:30,280 INFO 620 [-/127.0.0.1/-/11ms SCHEDULE /__schedule?path=/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2019-12-19 18:14:51,783 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 18:50:32,614 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 19:38:54,003 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-19 19:38:54,003 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 21:58:54,738 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-19 22:21:09,463 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 00:21:46,688 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 00:21:46,688 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 01:37:10,586 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 01:37:10,588 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 03:37:23,419 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 03:37:23,422 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 04:17:20,384 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 06:17:33,509 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 07:15:21,622 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 08:30:04,358 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 09:19:53,984 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 10:07:58,277 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 10:07:58,277 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 12:51:47,515 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 13:44:16,819 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 14:00:54,004 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 14:00:54,064 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 14:10:15,828 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 14:14:27,456 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 14:14:27,458 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 14:22:36,279 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 14:22:36,282 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 14:28:19,088 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 14:36:28,913 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 15:08:32,080 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 15:08:32,083 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 15:25:50,685 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 15:25:50,685 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 15:29:51,706 WARN 620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-12-20 15:29:51,707 WARN 620 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-12-20 15:56:35,173 INFO 620 [egg-logrotator] clean all log before 31 days
+2019-12-20 15:56:36,158 INFO 620 [egg-logrotator] broadcast log-reload
+2019-12-20 15:56:36,158 INFO 620 [egg-logrotator] rotate files success by DayRotator, files ["/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/common-error.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/common-error.log.2019-12-19","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/test_vue-web.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/test_vue-web.log.2019-12-19","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-web.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-web.log.2019-12-19","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-schedule.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-schedule.log.2019-12-19","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-agent.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-agent.log.2019-12-19"]

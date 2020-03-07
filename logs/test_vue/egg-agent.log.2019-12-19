@@ -1,0 +1,301 @@
+2019-12-19 07:34:47,072 INFO 619 [egg-logrotator] agent logger reload: got log-reload message
+2019-12-19 08:48:45,043 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 2458597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 08:50:44,104 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 99057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 11:13:35,473 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 150262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 12:37:07,322 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 1771427ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 12:48:32,181 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 644841ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 18:14:51,784 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 797055ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 18:50:32,615 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 2100803ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 19:38:54,003 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 1100750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 21:58:54,739 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 139550ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-19 22:21:09,463 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 1034651ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 00:21:46,686 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 7217213ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 01:37:10,626 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 4523739ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 03:37:23,437 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 7212437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 04:17:20,522 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 2396777ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 06:17:33,512 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 7212971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 07:15:21,624 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 3468102ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 08:30:04,359 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 4482721ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 09:19:53,985 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 2989619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 10:07:58,277 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 483917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 12:51:47,519 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 2248124ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 13:44:16,820 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 1368704ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 14:00:54,003 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 623132ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 14:10:15,828 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 501738ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 14:14:27,456 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 73782ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 14:22:36,280 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 428797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 14:28:19,090 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 282787ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 14:36:28,915 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 429792ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 15:08:32,081 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 498126ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 15:25:50,685 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 859789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+
+2019-12-20 15:29:51,707 ERROR 619 nodejs.ClusterClientNoResponseError: client no response in 160998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 619
+hostname: sunyueyuedeMacBook-Pro.local
+

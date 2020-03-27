@@ -15,8 +15,25 @@ class CategoryController extends Controller {
     // const perPageNum = Number.parseInt(this.ctx.query.perPageNum);
     // const flag = Number.parseInt(this.ctx.query.flag);
     // 根据id查询用户信息
-    let categorylist = await this.ctx.service.database.getCategoryList();
-    ctx.body = categorylist;
+    let cate = [];
+    const replyData = {
+      status: 0,
+      message: '获取信息成功',
+      data: cate
+    }
+    try{
+      cate = await this.ctx.service.database.getCategoryList();
+      replyData.data = cate;
+      if(cate.length==0){
+        replyData.status = 404;
+        replyData.message = '数据库未找到此条数据'
+      }
+    }catch(e){
+      replyData.status = 1001;
+      replyData.message = '服务器繁忙，请稍后访问'
+    }
+    ctx.body = replyData;
+    
   }
 
 }

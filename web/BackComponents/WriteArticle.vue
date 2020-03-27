@@ -81,7 +81,15 @@ export default {
                 // {emulateJSON:true}
                 ).then(
                     function (res) {
-                        console.log(res);
+                        const { body } = res;
+                        const { data } = body;
+                        const { status } = body;
+                        const { message } = body;
+                        if(status==0){
+                        console.log(data);
+                        }else{
+                            alert(message);
+                        }
                     }
                 );
             document.getElementById("cover").innerHTML=this.editor.info;
@@ -101,9 +109,17 @@ export default {
             var list=[];
             this.$http.get(apiDomin('home/getCategoryList')).then(result=>{
                     // console.log(result.data);
-                    result.data.forEach(item=>{
-                        list.push({'value':item.name});
-                    });
+                    const { body } = result;
+                    const { data } = body;
+
+                    const { status } = body;
+                    if(status==0){
+                      
+                    
+                        data.forEach(item=>{
+                            list.push({'value':item.name});
+                        });
+                    }
                     // console.log(list);
                 })
                 return list;

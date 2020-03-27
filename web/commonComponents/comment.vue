@@ -51,7 +51,7 @@ export default {
             pageIndex:-1,
             perPageNum:5,
             flag:0,//新增了几条评论，导致分页获取评论时 index向后增加多少
-            comment_num:0
+            
         }
     },
     created(){
@@ -66,18 +66,18 @@ export default {
             this.pageIndex=-1;
             this.getComment();
             this.getCommentNum();
-            this.comment_num=0;
+            //this.comment_num=0;
             this.flag=0;
     　　}
     },
     methods:{
-        getCommentNum(){
+        /*getCommentNum(){
             this.$http.get(apiDomin(`home/comment/getCommentCount/${this.id}`)).then(result=>{
                 this.comment_num=result.data[0]['count(1)'];
                 // this.$emit('getCommentNum', this.comment_num);
             })
             
-        },
+        },*/
         getComment(){
             console.log(this.id);
             this.pageIndex++;
@@ -194,7 +194,7 @@ export default {
         }
         
     },
-    props:['title','id']
+    props:['title','id','comment_num']
 }
 </script>
 

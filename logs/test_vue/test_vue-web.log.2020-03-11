@@ -1,0 +1,7 @@
+2020-03-11 15:42:54,303 ERROR 1675 [-/127.0.0.1/-/5ms GET /home/comment/getCommentCount/1] nodejs.TypeError: data.count is not a function
+    at ArticleService.getArticleCommentCountById (/Users/hj/Desktop/日常/前端/月月前端/blog/app/service/database.js:84:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1675
+hostname: bogon
+

@@ -128,6 +128,7 @@
              //循环插入图片
             // for (let i = 0; i < 1; i++) {
               console.log(result)
+              result=result['data'];
               let url = apiDomin(result.url);
               
               url = result.url[0];
@@ -197,7 +198,7 @@
         console.log(imgsrcArr);
         this.$http.get(apiDomin(`home/article/removeImg?img=${imgsrcArr[2]}`)).then(result=>{
           console.log("删除的路径");
-          console.log(result);
+          console.log(result['data']);
         })
       }
     }

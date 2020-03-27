@@ -30,7 +30,30 @@ class HomeController extends Controller {
     const { ctx } = this;
     const pageIndex = Number.parseInt(this.ctx.query.pageIndex);
     const perPageNum = Number.parseInt(this.ctx.query.perPageNum);
-    ctx.body = await ctx.service.database.getAllArticle(pageIndex,perPageNum);
+   
+    let article = [];
+    const replyData = {
+      status: 0,
+      message: '',
+      data: article
+    }
+    try{
+      article = await await ctx.service.database.getAllArticle(pageIndex,perPageNum);
+      replyData.data = article;
+      if(article.length==0){
+        replyData.status = 404;
+        replyData.message = '数据库未找到此条数据'
+      }
+    }catch(e){
+      replyData.status = 1001;
+      replyData.message = '服务器繁忙，请稍后访问'
+    }
+    
+    //article[comment_num] = await this.ctx.service.database.getArticleCommentCountById(articleId);
+    
+    //article.comment_num = 1;
+    ctx.body = replyData;
+
   }
 }
 

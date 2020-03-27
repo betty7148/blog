@@ -65,12 +65,22 @@ export default {
         getArticleForEdit(){
             // console.log(this);
             this.$http.get(apiDomin(`home/article/${this.id}`)).then(result=>{
+                const { body } = result;
+                const { data } = body;
+                const { status } = body;
+                const { message } = body;
+                if(status==0){
+                    //console.log(result.data);
+                    this.editor.info=data[0].content;
+                    this.input_title= data[0].title;
+                    this.input_zhaiyao= data[0].zhaiyao;
+                    this.selectedCategory= data[0].category;
+                    
+                }else{
+                    alert(message);
+                }
                 // this.articleInfo=result.body[0];
-                console.log(result.data);
-                this.editor.info=result.data[0].content;
-                this.input_title=result.data[0].title;
-                this.input_zhaiyao=result.data[0].zhaiyao;
-                this.selectedCategory=result.data[0].category;
+                
                 
                 // this.articleInfo.comment_num=this.$store.state.commentList[this.id];
             });
@@ -81,13 +91,14 @@ export default {
             alert(this.input_title+" "+this.input_zhaiyao+" "+this.editor.info);
             let post_time=this.articleDate();
             let imgsrcArr= this.$refs.child.getSrc(this.editor.info)||['public/image/1.jpeg'];
-            console.log(this.input_category.value);
+            /*console.log(this.input_category.value);
             console.log(this.input_title);
             console.log(sessionStorage.getItem('username'));
             console.log(this.input_zhaiyao)
             console.log(this.editor.info)
             console.log(post_time)
             console.log(imgsrcArr[0])
+            */
             //添加文章
             this.$http.post(apiDomin(`back/article/editArticle/${this.id}`),
                 {
@@ -123,9 +134,15 @@ export default {
             var list=[];
             this.$http.get(apiDomin('home/getCategoryList')).then(result=>{
                     // console.log(result.data);
-                    result.data.forEach(item=>{
-                        list.push({'value':item.name});
-                    });
+                    const { body } = result;
+                    const { data } = body;
+
+                    const { status } = body;
+                    if(status==0){
+                        data.forEach(item=>{
+                            list.push({'value':item.name});
+                        });
+                    }
                     // console.log(list);
                 })
                 return list;

@@ -1,0 +1,91 @@
+2020-03-15 00:00:01,022 INFO 1290 [egg-logrotator] agent logger reload: got log-reload message
+2020-03-15 10:20:37,499 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 286172ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 10:30:34,678 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 577159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 10:40:51,878 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 577180ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 10:51:08,077 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 576173ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 11:01:05,255 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 577170ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 11:11:22,458 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 577189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 11:21:23,650 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 561175ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 11:30:07,003 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 503344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-15 13:28:42,167 INFO 26202 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-03-15 13:28:42,186 INFO 26202 [egg:core] dump config after load, 7ms
+2020-03-15 13:28:42,231 INFO 26202 [egg-watcher] Start watching: ["/Users/hj/Desktop/日常/前端/月月前端/blog/app","/Users/hj/Desktop/日常/前端/月月前端/blog/config","/Users/hj/Desktop/日常/前端/月月前端/blog/mocks","/Users/hj/Desktop/日常/前端/月月前端/blog/mocks_proxy","/Users/hj/Desktop/日常/前端/月月前端/blog/app.js"]
+2020-03-15 13:28:42,231 INFO 26202 [egg-watcher] Start watching: "/Users/hj/Desktop/日常/前端/月月前端/blog/app"
+2020-03-15 13:28:42,232 INFO 26202 [egg-watcher] Start watching: "/Users/hj/Desktop/日常/前端/月月前端/blog/config"
+2020-03-15 13:28:42,232 INFO 26202 [egg-watcher] Start watching: "/Users/hj/Desktop/日常/前端/月月前端/blog/mocks"
+2020-03-15 13:28:42,232 INFO 26202 [egg-watcher] Start watching: "/Users/hj/Desktop/日常/前端/月月前端/blog/mocks_proxy"
+2020-03-15 13:28:42,232 INFO 26202 [egg-watcher] Start watching: "/Users/hj/Desktop/日常/前端/月月前端/blog/app.js"
+2020-03-15 13:28:42,232 INFO 26202 [egg-watcher:agent] watcher start success
+2020-03-15 13:28:42,262 INFO 26202 [egg:core] dump config after ready, 4ms

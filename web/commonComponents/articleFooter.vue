@@ -52,8 +52,6 @@ export default {
     data(){
         return{
             articleid:this.$route.params.id,
-            biaoqing:{
-            },
             previous:{},
             next:{},
             lastArticleId:parseInt(this.articleid)-1,
@@ -61,18 +59,18 @@ export default {
         }
     },
     created(){
-        this.getBiaoQingByArticleId();
+        //this.getBiaoQingByArticleId();
         this.getPreviousByArticleId();
         this.getNextByArticleId();
     },
-    props:['category','title'],
+    props:['category','title','biaoqing'],
     methods:{
-        getBiaoQingByArticleId(){
+        /*getBiaoQingByArticleId(){
             this.$http.get(apiDomin(`home/article/getBiaoQing/${this.articleid}`)).then(result=>{
                 this.biaoqing=result.body;
             })
         },
-
+*/
         postBiaoQingByArticleId(flag){
             switch(flag){
                 case 'love_num':
@@ -113,8 +111,15 @@ export default {
             },
             ).then(
                 function (res) {
-                    console.log(res);
-                    this.msg = res.bodyText;
+                    const { body } = res;
+                    const { data } = body;
+                    //console.log(body);
+                    //console.log(body['status']);
+                    if(body['status']!==0){
+                        alert(body['message']);
+                    }
+                   // console.log(res,'gengxinbiaoqing');
+                    //this.msg = res.bodyText;
                 },
                 function (res) {
                     console.log(res.status);
@@ -128,12 +133,13 @@ export default {
             this.$http.get(apiDomin(`home/article/${this.lastArticleId}`)).then(result=>{
                 // console.log("前一篇数据")
                 // console.log(result.data.length);
-                if(!result.data.length){
+                if(result.body['status']==404){
+                //if(!result.data.length){
                     // console.log('第一篇');
                     this.previous={title:"当前文章已经是第一篇！"};
                 }
                 else{
-                    this.previous=result.data[0];
+                    this.previous=result.body['data'][0];
                 }
                 
             })
@@ -143,13 +149,15 @@ export default {
             // console.log("后一篇文章id为："+this.nextArticleId);
             this.$http.get(apiDomin(`home/article/${this.nextArticleId}`)).then(result=>{
                 
-                // console.log("下一篇数据");
+                //console.log("下一篇数据");
+                //console.log(result.body['data'][0]);
                 
-                if(!result.data.length){
+                if(result.body['status']==404){
+                //if(!result.data.length){
                     // console.log('最后一篇');
                     this.next={title:"当前文章已经是最后一篇！"};
                 }else{
-                    this.next=result.data[0];
+                    this.next=result.body['data'][0];
                 }
                 // console.log(this.next);
             })
@@ -174,7 +182,7 @@ export default {
             this.articleid=this.$route.params.id;
             this.lastArticleId=parseInt(this.articleid)-1;
             this.nextArticleId=parseInt(this.articleid)+1;
-            this.getBiaoQingByArticleId();
+            //this.getBiaoQingByArticleId();
             this.getPreviousByArticleId();
             this.getNextByArticleId();
     　　}

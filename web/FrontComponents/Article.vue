@@ -26,8 +26,8 @@
     </div>
     
             
-    <articleFooter v-bind:articleid="id" v-bind:category="articleInfo.category" v-bind:title="articleInfo.title"></articleFooter>
-    <comment :title='articleInfo.title' :id='this.id' @getCommentNum='commentNum($event)'></comment>
+    <articleFooter v-bind:articleid="id" v-bind:category="articleInfo.category" v-bind:title="articleInfo.title" v-bind:biaoqing='this.biaoqing'></articleFooter>
+    <comment :title='articleInfo.title' :id='this.id' :comment_num='articleInfo.comment_num'   @getCommentNum='commentNum($event)'></comment>
 </div>
     
 </template>
@@ -40,7 +40,8 @@ export default {
     data(){
         return{
             id:this.$route.params.id,
-            articleInfo:{}
+            articleInfo:{},
+            biaoqing:{}
         }
     },
     beforecreate(){
@@ -63,10 +64,21 @@ export default {
             this.$store.dispatch('getCommentNum',{id:this.id,that:this});
             // console.log(this);
             this.$http.get(apiDomin(`home/article/${this.id}`)).then(result=>{
-                this.articleInfo=result.body[0];
-                this.articleInfo.hot_num=this.articleInfo.love_num+this.articleInfo.happy_num+this.articleInfo.yun_num+this.articleInfo.sad_num+this.articleInfo.angry_num;
-                this.$refs.body.innerHTML=result.data.content;
-                this.articleInfo.comment_num=this.$store.state.commentList[this.id];
+                console.log(result);
+                const { body } = result;
+                const { data } = body;
+                this.articleInfo=data[0];
+                //this.articleInfo.hot_num=this.articleInfo.love_num+this.articleInfo.happy_num+this.articleInfo.yun_num+this.articleInfo.sad_num+this.articleInfo.angry_num;
+                this.$refs.body.innerHTML=data[0].content;
+                this.biaoqing={
+                    'id': this.id,
+                    'love_num': this.articleInfo['love_num'],
+                    'happy_num': this.articleInfo['happy_num'],
+                    'yun_num': this.articleInfo['yun_num'],
+                    'sad_num': this.articleInfo['sad_num'],
+                    'angry_num': this.articleInfo['angry_num']
+                }
+                //this.articleInfo.comment_num=this.$store.state.commentList[this.id];
                 console.log("获取到了"+this.articleInfo.comment_num);
             });
             console.log("4444")
@@ -139,5 +151,8 @@ export default {
     height:auto;
     display: block;
     margin:auto;
+}
+.article .article_content{
+    padding-left:20px;
 }
 </style>

@@ -1,0 +1,50 @@
+2020-03-12 09:54:47,158 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 577063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-12 10:05:03,365 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 576187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-12 10:15:20,549 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 577157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-12 10:25:19,002 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 578440ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+
+2020-03-12 10:28:41,204 ERROR 1290 nodejs.ClusterClientNoResponseError: client no response in 162181ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 1290
+hostname: bogon
+

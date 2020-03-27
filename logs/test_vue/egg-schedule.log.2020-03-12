@@ -1,0 +1,9 @@
+2020-03-12 14:12:09,583 INFO 1290 [Timer] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51470421ms at 2020-03-13 04:30:00.004
+2020-03-12 14:12:09,579 INFO 7430 [Job#1583993529578482824559967251] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-03-12 14:12:09,585 INFO 7430 [Job#1583993529578482824559967251] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 5ms
+2020-03-13 00:39:29,886 INFO 7430 [Job#1584031169885859227622650112] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-03-13 00:39:29,889 INFO 7430 [Job#1584031169885859227622650112] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 3ms
+2020-03-13 00:39:29,889 INFO 1290 [Timer] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 84030115ms at 2020-03-14 00:00:00.004
+2020-03-13 00:39:30,887 INFO 1290 [Timer] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 84030116ms at 2020-03-14 00:00:01.003
+2020-03-13 00:39:30,885 INFO 7430 [Job#1584031170884859237616386712] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-03-13 00:39:30,890 INFO 7430 [Job#1584031170884859237616386712] /Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 5ms

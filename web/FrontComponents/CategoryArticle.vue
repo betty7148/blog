@@ -73,15 +73,35 @@ export default {
         },
         getArticleNum(){
             this.$http.get(apiDomin(`home/article/getArticleCount/${this.articleCategory}`)).then(result=>{
-                this.totalArticleNum=result.data[0]['count(1)'];
+                const { body } = result;
+                const { data } = body;
+                const { status } = body;
+                const { message } = body;
+                if(status==0){
+                   this.totalArticleNum=data;
+                }else{
+                    alert(message);
+                }
             })
         },
         getArticleByCategory(){
             // this.pageIndex++;
             let pageIndex=this.currentPage-1;
             this.$http.get(apiDomin(`home/article/category/${this.articleCategory}?pageIndex=${pageIndex}&perPageNum=${this.perPageNum}`)).then(async function(result){
-                if(result.body.length==0) this.$refs.getMoreArticle.innerHTML='无更多文章';
-                this.articleList=result.body;
+                //if(result.body.length==0) this.$refs.getMoreArticle.innerHTML='无更多文章';
+                //this.articleList=result.body;
+                const { body } = result;
+                const { data } = body;
+                const { status } = body;
+                const { message } = body;
+                console.log(body);
+                if(status==0){
+                    this.articleList=data;
+                    
+                }else{
+                    alert(message);
+                }
+             
             });
         },  
     },

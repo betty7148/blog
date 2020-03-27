@@ -86,7 +86,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-watcher/lib/event-sources/development"
@@ -117,6 +117,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -131,13 +138,12 @@
       "dir": "/Users/hj/Desktop/日常/前端/月月前端/blog/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "/Users/hj/Desktop/日常/前端/月月前端/blog/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -153,11 +159,11 @@
         "host": "127.0.0.1",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 0>",
+        "password": "<String len: 4>",
         "database": "blog"
       }
     },
-    "env": "prod",
+    "env": "local",
     "name": "test_vue",
     "keys": "<String len: 27>",
     "proxy": false,
@@ -280,19 +286,21 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/hj/logs/test_vue",
+      "dir": "/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "test_vue-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -332,7 +340,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 80,
+        "port": 7001,
         "hostname": ""
       }
     },
@@ -341,7 +349,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "middleware": [
+      "publicProxy"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -442,6 +452,21 @@
       "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
       "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart",
       "version": "2.9.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg/config/plugin.js",
+      "path": "/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-development",
+      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,

@@ -49,7 +49,16 @@ export default {
             this.pageIndex++;
            this.$http.get(apiDomin(`back/article?pageIndex=${this.pageIndex}&perPageNum=${this.perPageNum}`)).then((result)=>{
                 if(result.body.length==0) this.$refs.getMoreArticle.innerHTML='无更多文章';
-                this.articleList=this.articleList.concat(result.body);
+                const { body } = result;
+                const { data } = body;
+                const { status } = body;
+                const { message } = body;
+                if(status==0){
+                    this.articleList=this.articleList.concat(data);
+                }else{
+                    alert(message);
+                }
+                
                 // console.log(result);
                 console.log(this.articleList);
             });

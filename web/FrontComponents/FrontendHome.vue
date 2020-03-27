@@ -31,14 +31,15 @@
                         <el-menu-item index="5-2"><router-link to='/home/article/category/mongodb' tag='div'>MongoDB</router-link></el-menu-item>
                     </el-submenu>
                     <!-- <el-menu-item index="6" ><a href="https://www.ele.me" target="_blank">其他</a></el-menu-item> -->
-                    <el-menu-item index="7" class="float_rig"><router-link to='/backend/login'>登录</router-link></el-menu-item>
-                    <el-menu-item index="8" class="float_rig"><a href="#" target="_blank">注册</a></el-menu-item>
+                    <!--<el-menu-item index="7" class="float_rig"><router-link to='/backend/login'>登录</router-link></el-menu-item>
+                    <el-menu-item index="8" class="float_rig"><a href="#" target="_blank">注册</a></el-menu-item>-->
                     <el-menu-item index='9' class="demo-input-suffix float_rig">
-                        <el-input
+                        <!--<el-input
                         placeholder="请输入内容"
                         prefix-icon="el-icon-search"
                         v-model="input2">
                         </el-input>
+                        -->
                     </el-menu-item>
                 </el-menu>
             </el-header>
@@ -50,7 +51,7 @@
                 <el-aside width="280px">
                     <gonggao></gonggao>
                     <latestcommont></latestcommont>
-                    <zhandiantongji></zhandiantongji>
+                    <!--<zhandiantongji></zhandiantongji>-->
                     <tagcloud></tagcloud>
                 </el-aside>
             </el-container>

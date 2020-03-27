@@ -14,7 +14,7 @@ module.exports = app => {
   router.get("/home/article/category/:categoryName",controller.article.getArticleByCategory);
   router.get("/back/article",controller.article.getAllArticle);
   router.post("/back/article/editArticle/:id",controller.article.editArticle);
-  router.get("/home/article/getArticleCount/:categoryName",controller.article.getArticleCount);
+  router.get("/home/article/getArticleCount/:categoryName",controller.article.getArtCountByCategory);
   router.get("/user/article/acount/getAllArticleCount",controller.article.getAllArticleCount);
  
   

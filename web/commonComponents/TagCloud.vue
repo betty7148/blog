@@ -32,7 +32,14 @@ export default {
     methods:{
         getCategoryList(){
             this.$http.get(apiDomin('home/getCategoryList')).then(result=>{
-                this.categoryList = result.data;
+                const { body } = result;
+                const { data } = body;
+
+                const { status } = body;
+                if(status==0){
+                    this.categoryList = data;
+                }
+                
             })
         },
         addClass(){

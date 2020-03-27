@@ -1,0 +1,476 @@
+2020-03-10 05:05:40,756 INFO 75623 [egg-logrotator] app logger reload: got log-reload message
+2020-03-10 07:25:20,679 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 09:00:02,643 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 11:49:48,725 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 14:03:35,275 WARN 75623 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-10 14:03:35,275 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 15:39:58,449 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 17:40:52,737 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 18:24:58,800 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 18:45:22,935 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 20:46:20,090 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-10 23:16:18,016 WARN 75623 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-10 23:16:18,016 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 00:08:42,455 WARN 75623 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-11 00:08:42,457 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 01:27:14,621 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 03:27:51,760 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 04:23:37,412 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 06:24:14,585 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 06:27:06,026 INFO 75623 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/12/wx4jr6sd18s22wrhf5bw5tp00000gn/T/egg-multipart-tmp/test_vue"
+2020-03-11 06:27:06,031 INFO 75623 [-/127.0.0.1/-/7ms SCHEDULE /__schedule?path=/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-03-11 07:32:37,306 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 08:04:41,010 WARN 75623 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-11 08:04:41,010 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 09:00:06,113 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 12:00:00,004 WARN 75623 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-11 12:00:00,004 WARN 75623 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 15:27:18,935 INFO 1291 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:27:18,974 INFO 1291 [egg-multipart] stream mode enable
+2020-03-11 15:27:18,974 INFO 1291 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:27:19,692 INFO 1291 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:27:19,729 INFO 1291 [egg-security] use methodnoallow middleware
+2020-03-11 15:27:19,730 INFO 1291 [egg-security] use noopen middleware
+2020-03-11 15:27:19,735 INFO 1291 [egg-security] use nosniff middleware
+2020-03-11 15:27:19,736 INFO 1291 [egg-security] use xssProtection middleware
+2020-03-11 15:27:19,737 INFO 1291 [egg-security] use xframe middleware
+2020-03-11 15:27:19,738 INFO 1291 [egg-security] use dta middleware
+2020-03-11 15:27:19,738 INFO 1291 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:27:19,769 INFO 1291 [egg:core] dump config after load, 11ms
+2020-03-11 15:27:19,826 INFO 1291 [egg-watcher:application] watcher start success
+2020-03-11 15:27:19,841 INFO 1291 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:27:19 GMT+0800 (GMT+08:00)
+2020-03-11 15:27:19,849 INFO 1291 [egg:core] dump config after ready, 6ms
+2020-03-11 15:34:27,026 INFO 1468 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:34:27,055 INFO 1468 [egg-multipart] stream mode enable
+2020-03-11 15:34:27,055 INFO 1468 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:34:27,413 INFO 1468 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:34:27,416 INFO 1468 [egg-security] use methodnoallow middleware
+2020-03-11 15:34:27,416 INFO 1468 [egg-security] use noopen middleware
+2020-03-11 15:34:27,417 INFO 1468 [egg-security] use nosniff middleware
+2020-03-11 15:34:27,417 INFO 1468 [egg-security] use xssProtection middleware
+2020-03-11 15:34:27,417 INFO 1468 [egg-security] use xframe middleware
+2020-03-11 15:34:27,418 INFO 1468 [egg-security] use dta middleware
+2020-03-11 15:34:27,418 INFO 1468 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:34:27,447 INFO 1468 [egg:core] dump config after load, 13ms
+2020-03-11 15:34:27,509 INFO 1468 [egg-watcher:application] watcher start success
+2020-03-11 15:34:27,514 INFO 1468 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:34:27 GMT+0800 (GMT+08:00)
+2020-03-11 15:34:27,541 INFO 1468 [egg:core] dump config after ready, 10ms
+2020-03-11 15:41:54,865 INFO 1642 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:41:54,941 INFO 1642 [egg-multipart] stream mode enable
+2020-03-11 15:41:54,942 INFO 1642 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:41:55,336 INFO 1642 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:41:55,339 INFO 1642 [egg-security] use methodnoallow middleware
+2020-03-11 15:41:55,339 INFO 1642 [egg-security] use noopen middleware
+2020-03-11 15:41:55,340 INFO 1642 [egg-security] use nosniff middleware
+2020-03-11 15:41:55,340 INFO 1642 [egg-security] use xssProtection middleware
+2020-03-11 15:41:55,340 INFO 1642 [egg-security] use xframe middleware
+2020-03-11 15:41:55,341 INFO 1642 [egg-security] use dta middleware
+2020-03-11 15:41:55,341 INFO 1642 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:41:55,357 INFO 1642 [egg:core] dump config after load, 7ms
+2020-03-11 15:41:55,387 INFO 1642 [egg-watcher:application] watcher start success
+2020-03-11 15:41:55,391 INFO 1642 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:41:55 GMT+0800 (GMT+08:00)
+2020-03-11 15:41:55,397 INFO 1642 [egg:core] dump config after ready, 4ms
+2020-03-11 15:42:50,531 INFO 1675 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:42:50,569 INFO 1675 [egg-multipart] stream mode enable
+2020-03-11 15:42:50,570 INFO 1675 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:42:51,152 INFO 1675 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:42:51,156 INFO 1675 [egg-security] use methodnoallow middleware
+2020-03-11 15:42:51,156 INFO 1675 [egg-security] use noopen middleware
+2020-03-11 15:42:51,156 INFO 1675 [egg-security] use nosniff middleware
+2020-03-11 15:42:51,157 INFO 1675 [egg-security] use xssProtection middleware
+2020-03-11 15:42:51,157 INFO 1675 [egg-security] use xframe middleware
+2020-03-11 15:42:51,158 INFO 1675 [egg-security] use dta middleware
+2020-03-11 15:42:51,158 INFO 1675 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:42:51,187 INFO 1675 [egg:core] dump config after load, 9ms
+2020-03-11 15:42:51,253 INFO 1675 [egg-watcher:application] watcher start success
+2020-03-11 15:42:51,257 INFO 1675 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:42:51 GMT+0800 (GMT+08:00)
+2020-03-11 15:42:51,267 INFO 1675 [egg:core] dump config after ready, 6ms
+2020-03-11 15:43:19,163 INFO 1710 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:43:19,188 INFO 1710 [egg-multipart] stream mode enable
+2020-03-11 15:43:19,188 INFO 1710 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:43:19,446 INFO 1710 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:43:19,448 INFO 1710 [egg-security] use methodnoallow middleware
+2020-03-11 15:43:19,449 INFO 1710 [egg-security] use noopen middleware
+2020-03-11 15:43:19,449 INFO 1710 [egg-security] use nosniff middleware
+2020-03-11 15:43:19,449 INFO 1710 [egg-security] use xssProtection middleware
+2020-03-11 15:43:19,449 INFO 1710 [egg-security] use xframe middleware
+2020-03-11 15:43:19,450 INFO 1710 [egg-security] use dta middleware
+2020-03-11 15:43:19,450 INFO 1710 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:43:19,465 INFO 1710 [egg:core] dump config after load, 7ms
+2020-03-11 15:43:19,491 INFO 1710 [egg-watcher:application] watcher start success
+2020-03-11 15:43:19,495 INFO 1710 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:43:19 GMT+0800 (GMT+08:00)
+2020-03-11 15:43:19,505 INFO 1710 [egg:core] dump config after ready, 6ms
+2020-03-11 15:43:57,577 INFO 1734 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:43:57,603 INFO 1734 [egg-multipart] stream mode enable
+2020-03-11 15:43:57,604 INFO 1734 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:43:57,879 INFO 1734 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:43:57,885 INFO 1734 [egg-security] use methodnoallow middleware
+2020-03-11 15:43:57,886 INFO 1734 [egg-security] use noopen middleware
+2020-03-11 15:43:57,887 INFO 1734 [egg-security] use nosniff middleware
+2020-03-11 15:43:57,887 INFO 1734 [egg-security] use xssProtection middleware
+2020-03-11 15:43:57,887 INFO 1734 [egg-security] use xframe middleware
+2020-03-11 15:43:57,887 INFO 1734 [egg-security] use dta middleware
+2020-03-11 15:43:57,887 INFO 1734 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:43:57,912 INFO 1734 [egg:core] dump config after load, 9ms
+2020-03-11 15:43:57,959 INFO 1734 [egg-watcher:application] watcher start success
+2020-03-11 15:43:57,967 INFO 1734 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:43:57 GMT+0800 (GMT+08:00)
+2020-03-11 15:43:57,983 INFO 1734 [egg:core] dump config after ready, 5ms
+2020-03-11 15:46:00,817 INFO 1783 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:46:00,844 INFO 1783 [egg-multipart] stream mode enable
+2020-03-11 15:46:00,845 INFO 1783 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:46:01,193 INFO 1783 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:46:01,196 INFO 1783 [egg-security] use methodnoallow middleware
+2020-03-11 15:46:01,197 INFO 1783 [egg-security] use noopen middleware
+2020-03-11 15:46:01,197 INFO 1783 [egg-security] use nosniff middleware
+2020-03-11 15:46:01,197 INFO 1783 [egg-security] use xssProtection middleware
+2020-03-11 15:46:01,198 INFO 1783 [egg-security] use xframe middleware
+2020-03-11 15:46:01,198 INFO 1783 [egg-security] use dta middleware
+2020-03-11 15:46:01,198 INFO 1783 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:46:01,216 INFO 1783 [egg:core] dump config after load, 7ms
+2020-03-11 15:46:01,250 INFO 1783 [egg-watcher:application] watcher start success
+2020-03-11 15:46:01,253 INFO 1783 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:46:01 GMT+0800 (GMT+08:00)
+2020-03-11 15:46:01,268 INFO 1783 [egg:core] dump config after ready, 4ms
+2020-03-11 15:46:55,828 INFO 1816 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:46:55,858 INFO 1816 [egg-multipart] stream mode enable
+2020-03-11 15:46:55,858 INFO 1816 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:46:56,139 INFO 1816 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:46:56,143 INFO 1816 [egg-security] use methodnoallow middleware
+2020-03-11 15:46:56,145 INFO 1816 [egg-security] use noopen middleware
+2020-03-11 15:46:56,145 INFO 1816 [egg-security] use nosniff middleware
+2020-03-11 15:46:56,146 INFO 1816 [egg-security] use xssProtection middleware
+2020-03-11 15:46:56,147 INFO 1816 [egg-security] use xframe middleware
+2020-03-11 15:46:56,148 INFO 1816 [egg-security] use dta middleware
+2020-03-11 15:46:56,148 INFO 1816 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:46:56,162 INFO 1816 [egg:core] dump config after load, 6ms
+2020-03-11 15:46:56,193 INFO 1816 [egg-watcher:application] watcher start success
+2020-03-11 15:46:56,201 INFO 1816 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:46:56 GMT+0800 (GMT+08:00)
+2020-03-11 15:46:56,213 INFO 1816 [egg:core] dump config after ready, 9ms
+2020-03-11 15:47:28,650 INFO 1836 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:47:28,696 INFO 1836 [egg-multipart] stream mode enable
+2020-03-11 15:47:28,699 INFO 1836 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:47:28,967 INFO 1836 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:47:28,969 INFO 1836 [egg-security] use methodnoallow middleware
+2020-03-11 15:47:28,970 INFO 1836 [egg-security] use noopen middleware
+2020-03-11 15:47:28,970 INFO 1836 [egg-security] use nosniff middleware
+2020-03-11 15:47:28,970 INFO 1836 [egg-security] use xssProtection middleware
+2020-03-11 15:47:28,970 INFO 1836 [egg-security] use xframe middleware
+2020-03-11 15:47:28,971 INFO 1836 [egg-security] use dta middleware
+2020-03-11 15:47:28,971 INFO 1836 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:47:28,989 INFO 1836 [egg:core] dump config after load, 8ms
+2020-03-11 15:47:29,015 INFO 1836 [egg-watcher:application] watcher start success
+2020-03-11 15:47:29,018 INFO 1836 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:47:29 GMT+0800 (GMT+08:00)
+2020-03-11 15:47:29,025 INFO 1836 [egg:core] dump config after ready, 3ms
+2020-03-11 15:48:03,926 INFO 1854 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:48:03,950 INFO 1854 [egg-multipart] stream mode enable
+2020-03-11 15:48:03,951 INFO 1854 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:48:04,252 INFO 1854 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:48:04,255 INFO 1854 [egg-security] use methodnoallow middleware
+2020-03-11 15:48:04,258 INFO 1854 [egg-security] use noopen middleware
+2020-03-11 15:48:04,259 INFO 1854 [egg-security] use nosniff middleware
+2020-03-11 15:48:04,260 INFO 1854 [egg-security] use xssProtection middleware
+2020-03-11 15:48:04,260 INFO 1854 [egg-security] use xframe middleware
+2020-03-11 15:48:04,261 INFO 1854 [egg-security] use dta middleware
+2020-03-11 15:48:04,261 INFO 1854 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:48:04,277 INFO 1854 [egg:core] dump config after load, 9ms
+2020-03-11 15:48:04,313 INFO 1854 [egg-watcher:application] watcher start success
+2020-03-11 15:48:04,317 INFO 1854 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:48:04 GMT+0800 (GMT+08:00)
+2020-03-11 15:48:04,333 INFO 1854 [egg:core] dump config after ready, 3ms
+2020-03-11 15:48:35,058 INFO 1872 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 15:48:35,081 INFO 1872 [egg-multipart] stream mode enable
+2020-03-11 15:48:35,081 INFO 1872 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 15:48:35,266 INFO 1872 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 15:48:35,268 INFO 1872 [egg-security] use methodnoallow middleware
+2020-03-11 15:48:35,268 INFO 1872 [egg-security] use noopen middleware
+2020-03-11 15:48:35,268 INFO 1872 [egg-security] use nosniff middleware
+2020-03-11 15:48:35,269 INFO 1872 [egg-security] use xssProtection middleware
+2020-03-11 15:48:35,269 INFO 1872 [egg-security] use xframe middleware
+2020-03-11 15:48:35,269 INFO 1872 [egg-security] use dta middleware
+2020-03-11 15:48:35,269 INFO 1872 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 15:48:35,283 INFO 1872 [egg:core] dump config after load, 7ms
+2020-03-11 15:48:35,306 INFO 1872 [egg-watcher:application] watcher start success
+2020-03-11 15:48:35,310 INFO 1872 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 15:48:35 GMT+0800 (GMT+08:00)
+2020-03-11 15:48:35,317 INFO 1872 [egg:core] dump config after ready, 4ms
+2020-03-11 16:11:50,667 INFO 2419 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 16:11:50,707 INFO 2419 [egg-multipart] stream mode enable
+2020-03-11 16:11:50,708 INFO 2419 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 16:11:51,301 INFO 2419 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 16:11:51,304 INFO 2419 [egg-security] use methodnoallow middleware
+2020-03-11 16:11:51,305 INFO 2419 [egg-security] use noopen middleware
+2020-03-11 16:11:51,305 INFO 2419 [egg-security] use nosniff middleware
+2020-03-11 16:11:51,306 INFO 2419 [egg-security] use xssProtection middleware
+2020-03-11 16:11:51,306 INFO 2419 [egg-security] use xframe middleware
+2020-03-11 16:11:51,307 INFO 2419 [egg-security] use dta middleware
+2020-03-11 16:11:51,307 INFO 2419 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 16:11:51,327 INFO 2419 [egg:core] dump config after load, 11ms
+2020-03-11 16:11:51,354 INFO 2419 [egg-watcher:application] watcher start success
+2020-03-11 16:11:51,358 INFO 2419 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 16:11:51 GMT+0800 (GMT+08:00)
+2020-03-11 16:11:51,367 INFO 2419 [egg:core] dump config after ready, 5ms
+2020-03-11 16:13:05,853 INFO 2461 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 16:13:05,881 INFO 2461 [egg-multipart] stream mode enable
+2020-03-11 16:13:05,881 INFO 2461 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 16:13:06,221 INFO 2461 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 16:13:06,224 INFO 2461 [egg-security] use methodnoallow middleware
+2020-03-11 16:13:06,224 INFO 2461 [egg-security] use noopen middleware
+2020-03-11 16:13:06,225 INFO 2461 [egg-security] use nosniff middleware
+2020-03-11 16:13:06,225 INFO 2461 [egg-security] use xssProtection middleware
+2020-03-11 16:13:06,225 INFO 2461 [egg-security] use xframe middleware
+2020-03-11 16:13:06,225 INFO 2461 [egg-security] use dta middleware
+2020-03-11 16:13:06,226 INFO 2461 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 16:13:06,242 INFO 2461 [egg:core] dump config after load, 6ms
+2020-03-11 16:13:06,300 INFO 2461 [egg-watcher:application] watcher start success
+2020-03-11 16:13:06,302 INFO 2461 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 16:13:06 GMT+0800 (GMT+08:00)
+2020-03-11 16:13:06,316 INFO 2461 [egg:core] dump config after ready, 6ms
+2020-03-11 16:31:51,853 INFO 2886 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 16:31:51,889 INFO 2886 [egg-multipart] stream mode enable
+2020-03-11 16:31:51,889 INFO 2886 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 16:31:52,378 INFO 2886 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 16:31:52,381 INFO 2886 [egg-security] use methodnoallow middleware
+2020-03-11 16:31:52,381 INFO 2886 [egg-security] use noopen middleware
+2020-03-11 16:31:52,382 INFO 2886 [egg-security] use nosniff middleware
+2020-03-11 16:31:52,383 INFO 2886 [egg-security] use xssProtection middleware
+2020-03-11 16:31:52,383 INFO 2886 [egg-security] use xframe middleware
+2020-03-11 16:31:52,384 INFO 2886 [egg-security] use dta middleware
+2020-03-11 16:31:52,384 INFO 2886 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 16:31:52,407 INFO 2886 [egg:core] dump config after load, 8ms
+2020-03-11 16:31:52,438 INFO 2886 [egg-watcher:application] watcher start success
+2020-03-11 16:31:52,443 INFO 2886 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 16:31:52 GMT+0800 (GMT+08:00)
+2020-03-11 16:31:52,450 INFO 2886 [egg:core] dump config after ready, 4ms
+2020-03-11 18:15:28,486 INFO 4957 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 18:15:28,509 INFO 4957 [egg-multipart] stream mode enable
+2020-03-11 18:15:28,510 INFO 4957 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 18:15:28,695 INFO 4957 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 18:15:28,697 INFO 4957 [egg-security] use methodnoallow middleware
+2020-03-11 18:15:28,697 INFO 4957 [egg-security] use noopen middleware
+2020-03-11 18:15:28,698 INFO 4957 [egg-security] use nosniff middleware
+2020-03-11 18:15:28,698 INFO 4957 [egg-security] use xssProtection middleware
+2020-03-11 18:15:28,698 INFO 4957 [egg-security] use xframe middleware
+2020-03-11 18:15:28,698 INFO 4957 [egg-security] use dta middleware
+2020-03-11 18:15:28,698 INFO 4957 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 18:15:28,716 INFO 4957 [egg:core] dump config after load, 10ms
+2020-03-11 18:15:28,741 INFO 4957 [egg-watcher:application] watcher start success
+2020-03-11 18:15:28,743 INFO 4957 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 18:15:28 GMT+0800 (GMT+08:00)
+2020-03-11 18:15:28,751 INFO 4957 [egg:core] dump config after ready, 5ms
+2020-03-11 18:19:53,982 INFO 5068 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 18:19:54,014 INFO 5068 [egg-multipart] stream mode enable
+2020-03-11 18:19:54,015 INFO 5068 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 18:19:54,516 INFO 5068 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 18:19:54,519 INFO 5068 [egg-security] use methodnoallow middleware
+2020-03-11 18:19:54,520 INFO 5068 [egg-security] use noopen middleware
+2020-03-11 18:19:54,520 INFO 5068 [egg-security] use nosniff middleware
+2020-03-11 18:19:54,521 INFO 5068 [egg-security] use xssProtection middleware
+2020-03-11 18:19:54,521 INFO 5068 [egg-security] use xframe middleware
+2020-03-11 18:19:54,522 INFO 5068 [egg-security] use dta middleware
+2020-03-11 18:19:54,522 INFO 5068 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 18:19:54,539 INFO 5068 [egg:core] dump config after load, 7ms
+2020-03-11 18:19:54,572 INFO 5068 [egg-watcher:application] watcher start success
+2020-03-11 18:19:54,576 INFO 5068 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 18:19:54 GMT+0800 (GMT+08:00)
+2020-03-11 18:19:54,590 INFO 5068 [egg:core] dump config after ready, 10ms
+2020-03-11 18:30:31,006 INFO 5330 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 18:30:31,040 INFO 5330 [egg-multipart] stream mode enable
+2020-03-11 18:30:31,041 INFO 5330 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 18:30:31,500 INFO 5330 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 18:30:31,503 INFO 5330 [egg-security] use methodnoallow middleware
+2020-03-11 18:30:31,503 INFO 5330 [egg-security] use noopen middleware
+2020-03-11 18:30:31,504 INFO 5330 [egg-security] use nosniff middleware
+2020-03-11 18:30:31,504 INFO 5330 [egg-security] use xssProtection middleware
+2020-03-11 18:30:31,504 INFO 5330 [egg-security] use xframe middleware
+2020-03-11 18:30:31,505 INFO 5330 [egg-security] use dta middleware
+2020-03-11 18:30:31,505 INFO 5330 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 18:30:31,524 INFO 5330 [egg:core] dump config after load, 7ms
+2020-03-11 18:30:31,558 INFO 5330 [egg-watcher:application] watcher start success
+2020-03-11 18:30:31,599 INFO 5330 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 18:30:31 GMT+0800 (GMT+08:00)
+2020-03-11 18:30:31,609 INFO 5330 [egg:core] dump config after ready, 6ms
+2020-03-11 18:35:44,504 INFO 5439 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 18:35:44,535 INFO 5439 [egg-multipart] stream mode enable
+2020-03-11 18:35:44,535 INFO 5439 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 18:35:44,829 INFO 5439 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 18:35:44,832 INFO 5439 [egg-security] use methodnoallow middleware
+2020-03-11 18:35:44,832 INFO 5439 [egg-security] use noopen middleware
+2020-03-11 18:35:44,832 INFO 5439 [egg-security] use nosniff middleware
+2020-03-11 18:35:44,833 INFO 5439 [egg-security] use xssProtection middleware
+2020-03-11 18:35:44,833 INFO 5439 [egg-security] use xframe middleware
+2020-03-11 18:35:44,834 INFO 5439 [egg-security] use dta middleware
+2020-03-11 18:35:44,834 INFO 5439 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 18:35:44,846 INFO 5439 [egg:core] dump config after load, 5ms
+2020-03-11 18:35:44,868 INFO 5439 [egg-watcher:application] watcher start success
+2020-03-11 18:35:44,876 INFO 5439 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 18:35:44 GMT+0800 (GMT+08:00)
+2020-03-11 18:35:44,886 INFO 5439 [egg:core] dump config after ready, 6ms
+2020-03-11 18:51:25,325 INFO 5784 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 18:51:25,359 INFO 5784 [egg-multipart] stream mode enable
+2020-03-11 18:51:25,359 INFO 5784 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 18:51:25,713 INFO 5784 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 18:51:25,715 INFO 5784 [egg-security] use methodnoallow middleware
+2020-03-11 18:51:25,715 INFO 5784 [egg-security] use noopen middleware
+2020-03-11 18:51:25,716 INFO 5784 [egg-security] use nosniff middleware
+2020-03-11 18:51:25,716 INFO 5784 [egg-security] use xssProtection middleware
+2020-03-11 18:51:25,716 INFO 5784 [egg-security] use xframe middleware
+2020-03-11 18:51:25,717 INFO 5784 [egg-security] use dta middleware
+2020-03-11 18:51:25,717 INFO 5784 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 18:51:25,731 INFO 5784 [egg:core] dump config after load, 7ms
+2020-03-11 18:51:25,757 INFO 5784 [egg-watcher:application] watcher start success
+2020-03-11 18:51:25,761 INFO 5784 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 18:51:25 GMT+0800 (GMT+08:00)
+2020-03-11 18:51:25,769 INFO 5784 [egg:core] dump config after ready, 4ms
+2020-03-11 19:18:44,776 INFO 6406 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 19:18:44,805 INFO 6406 [egg-multipart] stream mode enable
+2020-03-11 19:18:44,805 INFO 6406 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 19:18:45,169 INFO 6406 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 19:18:45,172 INFO 6406 [egg-security] use methodnoallow middleware
+2020-03-11 19:18:45,173 INFO 6406 [egg-security] use noopen middleware
+2020-03-11 19:18:45,174 INFO 6406 [egg-security] use nosniff middleware
+2020-03-11 19:18:45,175 INFO 6406 [egg-security] use xssProtection middleware
+2020-03-11 19:18:45,175 INFO 6406 [egg-security] use xframe middleware
+2020-03-11 19:18:45,176 INFO 6406 [egg-security] use dta middleware
+2020-03-11 19:18:45,176 INFO 6406 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 19:18:45,221 INFO 6406 [egg:core] dump config after load, 25ms
+2020-03-11 19:18:45,266 INFO 6406 [egg-watcher:application] watcher start success
+2020-03-11 19:18:45,268 INFO 6406 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 19:18:45 GMT+0800 (GMT+08:00)
+2020-03-11 19:18:45,282 INFO 6406 [egg:core] dump config after ready, 5ms
+2020-03-11 19:25:07,348 INFO 6546 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 19:25:07,376 INFO 6546 [egg-multipart] stream mode enable
+2020-03-11 19:25:07,376 INFO 6546 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 19:25:07,759 INFO 6546 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 19:25:07,762 INFO 6546 [egg-security] use methodnoallow middleware
+2020-03-11 19:25:07,762 INFO 6546 [egg-security] use noopen middleware
+2020-03-11 19:25:07,766 INFO 6546 [egg-security] use nosniff middleware
+2020-03-11 19:25:07,766 INFO 6546 [egg-security] use xssProtection middleware
+2020-03-11 19:25:07,767 INFO 6546 [egg-security] use xframe middleware
+2020-03-11 19:25:07,767 INFO 6546 [egg-security] use dta middleware
+2020-03-11 19:25:07,767 INFO 6546 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 19:25:07,800 INFO 6546 [egg:core] dump config after load, 14ms
+2020-03-11 19:25:07,841 INFO 6546 [egg-watcher:application] watcher start success
+2020-03-11 19:25:07,844 INFO 6546 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 19:25:07 GMT+0800 (GMT+08:00)
+2020-03-11 19:25:07,853 INFO 6546 [egg:core] dump config after ready, 6ms
+2020-03-11 19:46:16,878 INFO 6966 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 19:46:16,912 INFO 6966 [egg-multipart] stream mode enable
+2020-03-11 19:46:16,913 INFO 6966 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 19:46:17,406 INFO 6966 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 19:46:17,410 INFO 6966 [egg-security] use methodnoallow middleware
+2020-03-11 19:46:17,410 INFO 6966 [egg-security] use noopen middleware
+2020-03-11 19:46:17,411 INFO 6966 [egg-security] use nosniff middleware
+2020-03-11 19:46:17,411 INFO 6966 [egg-security] use xssProtection middleware
+2020-03-11 19:46:17,411 INFO 6966 [egg-security] use xframe middleware
+2020-03-11 19:46:17,412 INFO 6966 [egg-security] use dta middleware
+2020-03-11 19:46:17,412 INFO 6966 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 19:46:17,440 INFO 6966 [egg:core] dump config after load, 14ms
+2020-03-11 19:46:17,489 INFO 6966 [egg-watcher:application] watcher start success
+2020-03-11 19:46:17,494 INFO 6966 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 19:46:17 GMT+0800 (GMT+08:00)
+2020-03-11 19:46:17,520 INFO 6966 [egg:core] dump config after ready, 8ms
+2020-03-11 19:50:23,153 INFO 7061 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 19:50:23,188 INFO 7061 [egg-multipart] stream mode enable
+2020-03-11 19:50:23,189 INFO 7061 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 19:50:23,660 INFO 7061 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 19:50:23,663 INFO 7061 [egg-security] use methodnoallow middleware
+2020-03-11 19:50:23,663 INFO 7061 [egg-security] use noopen middleware
+2020-03-11 19:50:23,663 INFO 7061 [egg-security] use nosniff middleware
+2020-03-11 19:50:23,664 INFO 7061 [egg-security] use xssProtection middleware
+2020-03-11 19:50:23,664 INFO 7061 [egg-security] use xframe middleware
+2020-03-11 19:50:23,664 INFO 7061 [egg-security] use dta middleware
+2020-03-11 19:50:23,664 INFO 7061 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 19:50:23,688 INFO 7061 [egg:core] dump config after load, 10ms
+2020-03-11 19:50:23,730 INFO 7061 [egg-watcher:application] watcher start success
+2020-03-11 19:50:23,737 INFO 7061 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 19:50:23 GMT+0800 (GMT+08:00)
+2020-03-11 19:50:23,755 INFO 7061 [egg:core] dump config after ready, 8ms
+2020-03-11 19:53:34,352 INFO 7136 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 19:53:34,380 INFO 7136 [egg-multipart] stream mode enable
+2020-03-11 19:53:34,380 INFO 7136 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 19:53:34,814 INFO 7136 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 19:53:34,816 INFO 7136 [egg-security] use methodnoallow middleware
+2020-03-11 19:53:34,817 INFO 7136 [egg-security] use noopen middleware
+2020-03-11 19:53:34,817 INFO 7136 [egg-security] use nosniff middleware
+2020-03-11 19:53:34,818 INFO 7136 [egg-security] use xssProtection middleware
+2020-03-11 19:53:34,818 INFO 7136 [egg-security] use xframe middleware
+2020-03-11 19:53:34,818 INFO 7136 [egg-security] use dta middleware
+2020-03-11 19:53:34,818 INFO 7136 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 19:53:34,836 INFO 7136 [egg:core] dump config after load, 8ms
+2020-03-11 19:53:34,864 INFO 7136 [egg-watcher:application] watcher start success
+2020-03-11 19:53:34,873 INFO 7136 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 19:53:34 GMT+0800 (GMT+08:00)
+2020-03-11 19:53:34,882 INFO 7136 [egg:core] dump config after ready, 5ms
+2020-03-11 20:05:06,846 INFO 7430 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-11 20:05:06,919 INFO 7430 [egg-multipart] stream mode enable
+2020-03-11 20:05:06,919 INFO 7430 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-11 20:05:07,299 INFO 7430 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-11 20:05:07,302 INFO 7430 [egg-security] use methodnoallow middleware
+2020-03-11 20:05:07,302 INFO 7430 [egg-security] use noopen middleware
+2020-03-11 20:05:07,303 INFO 7430 [egg-security] use nosniff middleware
+2020-03-11 20:05:07,303 INFO 7430 [egg-security] use xssProtection middleware
+2020-03-11 20:05:07,303 INFO 7430 [egg-security] use xframe middleware
+2020-03-11 20:05:07,304 INFO 7430 [egg-security] use dta middleware
+2020-03-11 20:05:07,304 INFO 7430 [egg-security] compose 6 middlewares into one security middleware
+2020-03-11 20:05:07,321 INFO 7430 [egg:core] dump config after load, 6ms
+2020-03-11 20:05:07,344 INFO 7430 [egg-watcher:application] watcher start success
+2020-03-11 20:05:07,351 INFO 7430 [egg-mysql] instance[0] status OK, rds currentTime: Wed Mar 11 2020 20:05:07 GMT+0800 (GMT+08:00)
+2020-03-11 20:05:07,357 INFO 7430 [egg:core] dump config after ready, 4ms
+2020-03-11 23:35:12,628 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-11 23:56:12,801 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 00:13:26,005 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 00:13:26,006 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 00:48:48,135 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 01:09:47,320 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 01:09:47,320 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 01:30:46,531 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 01:30:46,532 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 01:51:27,003 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 01:51:27,003 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 02:12:26,225 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 02:12:26,225 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 02:15:36,406 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 02:15:36,407 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 02:17:59,586 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 02:38:38,776 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 02:59:37,961 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 03:20:36,995 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 03:36:10,318 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 03:48:41,117 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 03:58:58,301 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 04:08:56,003 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 04:08:56,003 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 04:19:13,200 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 04:19:13,200 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 04:29:29,414 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 04:29:29,415 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 04:39:46,614 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 04:49:43,811 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 04:49:43,812 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 05:00:00,996 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 05:00:00,997 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 05:10:18,196 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 05:20:15,371 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 05:20:15,371 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 05:30:32,587 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 05:30:32,587 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 05:40:49,048 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 05:40:49,048 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 05:50:46,247 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:01:03,424 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:11:20,419 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 06:11:20,420 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:22:45,789 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 06:22:45,790 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:27:08,995 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 06:27:08,996 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:28:59,198 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:38:56,400 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:44:21,723 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 06:44:21,723 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 06:55:42,123 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 06:55:42,123 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 07:05:58,747 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 07:05:58,748 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 07:14:10,938 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 07:24:09,003 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 07:24:09,003 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 07:34:26,201 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 07:34:26,201 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 07:44:42,390 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 07:54:59,908 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 08:04:57,094 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 08:04:57,094 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 08:15:14,285 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 08:15:14,286 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 08:25:30,465 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 08:35:27,667 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-12 08:35:27,667 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 08:45:08,839 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-12 09:02:39,726 INFO 7430 [egg-logrotator] clean all log before 31 days
+2020-03-12 09:02:40,710 INFO 7430 [egg-logrotator] broadcast log-reload
+2020-03-12 09:02:40,710 INFO 7430 [egg-logrotator] rotate files success by DayRotator, files ["/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/common-error.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/common-error.log.2020-03-11","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/test_vue-web.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/test_vue-web.log.2020-03-11","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-web.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-web.log.2020-03-11","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-schedule.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-schedule.log.2020-03-11","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-agent.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-agent.log.2020-03-11"]

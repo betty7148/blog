@@ -25,11 +25,11 @@ import router from './router.js';
 var store= new Vuex.Store({
     state:{//this.$store.state.**
         // shopcar:shopcar
-        gonggao:"博客数据迁移完毕，部分细节有待优化中...   博客首次打开可能会很慢，由于目前菜的不谈无解╮(╯▽╰)╭【主题】采用nuxtjs + wordpress rest api实现前后端分离，服务端渲染页面",
-        commentList:[]
+        gonggao:"博客项目整体架构分为前端和后端，前端使用vue+element-ui+es6进行页面开发和组件封装。后端采用egg.js+mysql搭建服务器。",
+        //commentList:[]
     },
     //存放同步函数方法
-	mutations: {//this.$store.commit("方法名","按需传递唯一的参数")
+	/*mutations: {//this.$store.commit("方法名","按需传递唯一的参数")
 		updateStateComment(state,obj){
             state.commentList[obj.id]=obj.comment_num;
 		},
@@ -59,7 +59,7 @@ var store= new Vuex.Store({
     getters:{//this.$store.getters.**
         
        
-    }
+    }*/
 })
 
 

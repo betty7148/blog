@@ -48,9 +48,10 @@
       :total='this.totalArticleNum'>
     </el-pagination>
   </div>
-            <div class="getMoreArticleBut">
+            <!--<div class="getMoreArticleBut">
                 <button id='getMoreArticle' @click='getHomeArticle' ref='getMoreArticle' name='qq'>加载更多文章</button>
             </div>
+            !-->
         </div>
     </div>
 </template>
@@ -87,24 +88,42 @@ export default {
         },
         getArticleNum(){
             this.$http.get(apiDomin('user/article/acount/getAllArticleCount')).then(result=>{
-                this.totalArticleNum=result.data[0]['count(1)'];
+                const { body } = result;
+                const { data } = body;
+                const { status } = body;
+                if(status==0){
+                    console.log(data);
+                    this.totalArticleNum=data[0]['count(1)'];
+                }
+               
             })
         },
         getHomeArticle(){
             // this.pageIndex++;
             let pageIndex=this.currentPage-1;
             this.$http.get(apiDomin(`home/article?pageIndex=${pageIndex}&perPageNum=${this.perPageNum}`)).then(async function(result){
-                if(result.body.length==0) this.$refs.getMoreArticle.innerHTML='无更多文章';
-                this.articleList=result.body;
-                var that=this;
-                var arr=this.articleList;
+                
+                //if(result.body.length==0) this.$refs.getMoreArticle.innerHTML='无更多文章';
+                const { body } = result;
+                const { data } = body;
+                const { status } = body;
+                const { message } = body;
+                if(status==0){
+                    this.articleList=data;
+                    var that=this;
+                    var arr=this.articleList;
+                    
+                }else{
+                    alert(message);
+                }
+             
                 // console.log(this);
                 // for(let i=0;i<this.articleList.length;i++){
                 //     this.articleList[i].hot_num=this.articleList[i].love_num+this.articleList[i].happy_num+this.articleList[i].yun_num+this.articleList[i].sad_num+this.articleList[i].angry_num;
                 //     await this.getCommentNum(i);
                 // }
 
-                this.articleList.forEach( async (item,index) => {
+                /*this.articleList.forEach( async (item,index) => {
                     item.hot_num=item.love_num+item.happy_num+item.yun_num+item.sad_num+item.angry_num;
                     await this.getComment_Num(index);
                     // this.console1();
@@ -114,12 +133,12 @@ export default {
                         // item.comment_num=that.$store.state.commentList[item.id];
                         // console.log(item.id+"获取到了"+item.comment_num);
                     // });
-                })
+                })*/
                 console.log("777");
                 console.log(this.articleList);
             });
         },
-        async getComment_Num(i){
+        /*async getComment_Num(i){
             // console.log(this);
             await this.$store.dispatch('getCommentNum',{id:this.articleList[i].id,that:this});
             this.articleList[i].comment_num=this.$store.state.commentList[this.articleList[i].id];
@@ -128,6 +147,7 @@ export default {
             // console.log(that.$store.state.commentList[that.articleList[i].id]);
             // console.log(that.articleList[i].id+"获取到了"+that.articleList[i].comment_num);
         },
+        */
         console1(){
             console.log("1234");
         }

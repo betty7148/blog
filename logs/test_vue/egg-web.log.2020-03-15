@@ -1,0 +1,32 @@
+2020-03-15 00:00:01,022 INFO 7430 [egg-logrotator] app logger reload: got log-reload message
+2020-03-15 04:30:00,006 INFO 7430 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/12/wx4jr6sd18s22wrhf5bw5tp00000gn/T/egg-multipart-tmp/test_vue"
+2020-03-15 04:30:00,008 INFO 7430 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/hj/Desktop/日常/前端/月月前端/blog/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-03-15 10:20:37,498 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 10:30:34,677 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 10:40:51,878 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 10:51:08,077 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 11:01:05,255 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-15 11:01:05,255 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 11:11:22,458 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-15 11:11:22,458 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 11:21:23,649 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 11:30:07,003 WARN 7430 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-15 11:30:07,003 WARN 7430 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-15 13:28:43,017 INFO 26205 [egg:logger] init all loggers with options: {"dir":"/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test_vue-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-15 13:28:43,052 INFO 26205 [egg-multipart] stream mode enable
+2020-03-15 13:28:43,052 INFO 26205 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2020-03-15 13:28:43,691 INFO 26205 [egg-static] starting static serve /public/ -> /Users/hj/Desktop/日常/前端/月月前端/blog/public
+2020-03-15 13:28:43,704 INFO 26205 [egg-security] use methodnoallow middleware
+2020-03-15 13:28:43,706 INFO 26205 [egg-security] use noopen middleware
+2020-03-15 13:28:43,707 INFO 26205 [egg-security] use nosniff middleware
+2020-03-15 13:28:43,708 INFO 26205 [egg-security] use xssProtection middleware
+2020-03-15 13:28:43,709 INFO 26205 [egg-security] use xframe middleware
+2020-03-15 13:28:43,710 INFO 26205 [egg-security] use dta middleware
+2020-03-15 13:28:43,710 INFO 26205 [egg-security] compose 6 middlewares into one security middleware
+2020-03-15 13:28:43,755 INFO 26205 [egg:core] dump config after load, 22ms
+2020-03-15 13:28:43,802 INFO 26205 [egg-watcher:application] watcher start success
+2020-03-15 13:28:43,814 INFO 26205 [egg-mysql] instance[0] status OK, rds currentTime: Sun Mar 15 2020 13:28:43 GMT+0800 (GMT+08:00)
+2020-03-15 13:28:43,825 INFO 26205 [egg:core] dump config after ready, 6ms
+2020-03-16 00:00:00,019 INFO 26205 [egg-logrotator] clean all log before 31 days
+2020-03-16 00:00:01,013 INFO 26205 [egg-logrotator] broadcast log-reload
+2020-03-16 00:00:01,013 INFO 26205 [egg-logrotator] rotate files success by DayRotator, files ["/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/common-error.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/common-error.log.2020-03-15","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/test_vue-web.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/test_vue-web.log.2020-03-15","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-web.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-web.log.2020-03-15","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-schedule.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-schedule.log.2020-03-15","/Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-agent.log -> /Users/hj/Desktop/日常/前端/月月前端/blog/logs/test_vue/egg-agent.log.2020-03-15"]
